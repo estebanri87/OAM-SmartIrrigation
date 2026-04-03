@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../knx"
+		},
+				{
+			"path": "../OFM-SmartIrrigationModule"
+		},
+		{
+			"path": "../OFM-ConfigTransfer"
+		},
+		{
+			"path": "../OFM-FileTransferModule"
+		},
+		{
+			"path": "../OFM-FunctionBlocks"
+		},
+		{
+			"path": "../OFM-LogicModule"
+		},
+		{
+			"path": "../OGM-Common"
+		},
+		{
+			"path": "../OGM-HardwareConfig"
+		},
+	],
+	"settings": {
+		"cSpell.language": "en,de,de-DE",
+		"C_Cpp.autoAddFileAssociations": false,
+		"files.associations": {
+			"new": "cpp"
+	}
+}}

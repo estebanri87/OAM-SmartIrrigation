@@ -277,9 +277,9 @@
 #define ParamSIR_SIR_WindPauseThreshold              (knx.paramByte(SIR_SIR_WindPauseThreshold))
 // Zonen-Wechsel-Verzögerung
 #define ParamSIR_SIR_ZoneSwitchDelay                 (knx.paramWord(SIR_SIR_ZoneSwitchDelay))
-// Erstbew\u00e4sserung-Modus
+// Erstbewässerung-Modus
 #define ParamSIR_SIR_FirstStartMode                  (knx.paramByte(SIR_SIR_FirstStartMode))
-// Erstbew\u00e4sserung-Verz\u00f6gerung
+// Erstbewässerung-Verzögerung
 #define ParamSIR_SIR_FirstStartDelay                 (knx.paramWord(SIR_SIR_FirstStartDelay))
 
 #define SIR_KoSystemOnOff 996
@@ -378,9 +378,9 @@
 #define KoSIR_SensorRainAmount                    (knx.getGroupObject(SIR_KoSensorRainAmount))
 // Sensor Wind
 #define KoSIR_SensorWind                          (knx.getGroupObject(SIR_KoSensorWind))
-// Start Erstbew\u00e4sserung
+// Start Erstbewässerung
 #define KoSIR_FirstStartRelease                   (knx.getGroupObject(SIR_KoFirstStartRelease))
-// Status Erstbew\u00e4sserung
+// Status Erstbewässerung
 #define KoSIR_FirstStartActive                    (knx.getGroupObject(SIR_KoFirstStartActive))
 // Sensor Status
 #define KoSIR_SensorStatus                        (knx.getGroupObject(SIR_KoSensorStatus))
@@ -636,7 +636,7 @@
 #define ParamSIR_SIR_ZSoilMoistureEnabled            ((bool)(knx.paramByte(SIR_ParamCalcIndex(SIR_SIR_ZSoilMoistureEnabled)) & SIR_SIR_ZSoilMoistureEnabledMask))
 // Bewässerungs-Priorität
 #define ParamSIR_SIR_ZZonePriority                   (knx.paramByte(SIR_ParamCalcIndex(SIR_SIR_ZZonePriority)))
-// Aktivit\u00e4tserkennung
+// Aktivitätserkennung
 #define ParamSIR_SIR_ZActivityEnabled                ((bool)(knx.paramByte(SIR_ParamCalcIndex(SIR_SIR_ZActivityEnabled)) & SIR_SIR_ZActivityEnabledMask))
 
 // deprecated

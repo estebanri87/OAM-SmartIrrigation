@@ -1,32 +1,38 @@
-# OpenKNX InternetServices Applikation
+# OpenKNX SmartIrrigation Applikation
 
-Die Anwendung stellt Daten aus dem Internet auf dem KNX Bus zur Verfügung:
+Eine intelligente KNX-basierte Bewässerungssteuerung, die Bewässerungszonen auf Basis von Echtzeit-Wetterdaten, Vorhersagen und Evapotranspiration (ET0) automatisch steuert.
 
-- Internet Wetter Dienst
+Funktionsumfang:
+
+- Bis zu 10 Bewässerungszonen mit individueller Konfiguration
+- Wetterbasierte Bewässerung (Temperatur, Regen, Luftfeuchtigkeit, Wind, Bodenfeuchtigkeit, UV)
+- Wettervorhersagen (aktuell, +48h, +7d)
+- Evapotranspiration (ET0) Berechnung
+- Konfigurierbare Bewässerungsmodi (automatisch/wetterbasiert, zeitbasiert, manuell)
+- Sicherheitsfunktionen: Ventilrückmeldung, Frostsicherung, Durchflusssensor, Tanküberwachung
+- Intelligente Planung: Sonnenstandbasierte Zeitfenster, Einweichzyklen, Ruhetage
+- Komfortfunktionen: Aktivitätserkennung, Wochentagfilter, Saisonsteuerung, Windpause
 
 ## Anwendungsdokumentation
 
-Die detaillierte Beschreibungen der Anwendung ist in folgenden Abschnitten zu finden:
+Die detaillierten Beschreibungen der Anwendung sind in folgenden Abschnitten zu finden:
 
 - [OpenKNX Applikationsbeschreibung](https://github.com/OpenKNX/OGM-Common/blob/v1/doc/Applikationsbeschreibung-Common.md)
 - [Konfigurationstransfer](https://github.com/OpenKNX/OFM-ConfigTransfer/blob/v1/doc/Applikationsbeschreibung-ConfigTransfer.md)
-- [Internet Wetter](https://github.com/OpenKNX/OFM-InternetWeatherModule) - Bereitstellung von Wetterdaten aus dem Internet
+- [Smart Irrigation Modul](https://github.com/OpenKNX/OFM-SmartIrrigationModule) - Bewässerungssteuerung und Zonenkonfiguration
 - [Logikmodule](https://github.com/OpenKNX/OFM-LogicModule/blob/v1/doc/Applikationsbeschreibung-Logik.md)
 - [Funktionsblöcke](https://github.com/mgeramb/OFM-FunctionBlocks/blob/v1/doc/Applikationsbeschreibung-FunctionBlocks.md)
 
 ## Firmware
 
-Eine vorkomplierte Firmware ist [hier](https://github.com/OpenKNX/OAM-InternetServices/releases) zu finden. ZIP Datei herunterladen, entpacken und der Anleitung im Readme folgen.
+Eine vorkompilierte Firmware ist [hier](https://github.com/OpenKNX/OAM-SmartIrrigation/releases) zu finden. ZIP-Datei herunterladen, entpacken und der Anleitung im Readme folgen.
 
 ## Hardware
 
-Als Hardware kann jede OpenKNX oder OpenKNX-Ready Hardware mit LAN oder WLAN verwendet werden.
 Die vorkompilierte Firmware unterstützt:
 
-- [REG1-LAN-TP-Base](https://github.com/OpenKNX/OpenKNX/wiki/REG1-LAN-TP-Base)
-- [OpenKNX Reg1-ETH V1](https://github.com/OpenKNX/OpenKNX/wiki/REG1-Eth)
-- [Adafruit ESP32 Feather V2](https://github.com/OpenKNX/OpenKNX/wiki/Adafruit-ESP32-Feather-V2)
+- [OpenKNX REG1-BASE V1](https://github.com/OpenKNX/OpenKNX/wiki/REG1-Base) (RP2040)
 
 ## Lizenz
 
-Diese Software steht unter der [GNU GPL v3](LICENSE).
+Diese Software steht unter der [AGPL-3.0](LICENSE).

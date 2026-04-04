@@ -16,6 +16,7 @@ doc/Requirements/
 release/*
 SmartIrrigation.baggages
 scripts/add_mingw_path.py
+parse_ets_config.py
 test/
 
 
